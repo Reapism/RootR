@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rootr.Shared", "RootR.Shared\Rootr.Shared.csproj", "{7F39EE99-9DA7-4278-B18D-3A60341C2F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rootr.View", "Rootr.View\Rootr.View.csproj", "{69BC0433-FCC8-4311-83AD-D970558B3249}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F39EE99-9DA7-4278-B18D-3A60341C2F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F39EE99-9DA7-4278-B18D-3A60341C2F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F39EE99-9DA7-4278-B18D-3A60341C2F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F39EE99-9DA7-4278-B18D-3A60341C2F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69BC0433-FCC8-4311-83AD-D970558B3249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BC0433-FCC8-4311-83AD-D970558B3249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BC0433-FCC8-4311-83AD-D970558B3249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BC0433-FCC8-4311-83AD-D970558B3249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
