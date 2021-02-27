@@ -1,21 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
-namespace Rootr.Shared.Cleaner
+namespace Rootr.Core.Cleaner
 {
-    interface IDirectoryCrud
+    public interface IDirectoryCrud
     {
         void Create(DirectoryInfo directoryInfo);
         void Create(IEnumerable<DirectoryInfo> directoryInfos);
 
-        void Update(DirectoryInfo fileInfo, IEnumerable<FileInfo> fileInfos);
+        void Update(DirectoryInfo directoryInfo, IEnumerable<FileInfo> fileInfos);
 
         void Delete(IEnumerable<DirectoryInfo> directoryInfos);
+
         IEnumerable<FileInfo> Read(DirectoryInfo directoryInfo);
     }
-    class DirectoryCrudBase : IDirectoryCrud
+
+    public class DirectoryCrudBase : IDirectoryCrud
     {
         public void Create(DirectoryInfo directoryInfo)
         {
@@ -30,15 +31,19 @@ namespace Rootr.Shared.Cleaner
 
         public void Delete(IEnumerable<DirectoryInfo> directoryInfos)
         {
-            throw new NotImplementedException();
+            foreach (var dir in directoryInfos)
+            {
+                if (dir.Exists)
+                    dir.Delete();
+            }
         }
 
         public IEnumerable<FileInfo> Read(DirectoryInfo directoryInfo)
         {
-            throw new NotImplementedException();
+            return directoryInfo.EnumerateFiles();
         }
 
-        public void Update(DirectoryInfo fileInfo, IEnumerable<FileInfo> fileInfos)
+        public void Update(DirectoryInfo directoryInfo, IEnumerable<FileInfo> fileInfos)
         {
             throw new NotImplementedException();
         }

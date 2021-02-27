@@ -1,8 +1,8 @@
 ﻿using System.IO;
 
-namespace Rootr.Shared.Cryptography
+namespace Rootr.Core.Cryptography
 {
-    public class FileSecureBase : IFileCryptography
+    public class FileCryptographyBase : IFileCryptography
     {
         public void EncryptFile(FileInfo fileInfo)
         {
