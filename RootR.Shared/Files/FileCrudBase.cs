@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Rootr.Shared.Files
+namespace Rootr.Core.Files
 {
     internal class FileCrudBase : IFileCrud
     {

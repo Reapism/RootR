@@ -1,4 +1,4 @@
-﻿namespace Rootr.Shared.Embed
+﻿namespace Rootr.Core.Embed
 {
     interface IDirectoryEmbedder
     {

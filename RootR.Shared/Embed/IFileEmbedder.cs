@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Rootr.Shared.Embed
+namespace Rootr.Core.Embed
 {
     interface IFileEmbedder
     {

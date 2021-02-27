@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Rootr.Shared.Cryptography
+namespace Rootr.Core.Cryptography
 {
     interface IFileCryptography
     {
