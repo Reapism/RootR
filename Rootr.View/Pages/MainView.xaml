@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:Rootr.View.Pages"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+    <Grid Background="Black">
+        <TextBox></TextBox>
     </Grid>
 </UserControl>
