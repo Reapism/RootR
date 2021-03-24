@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Rootr.Core.Scramble
+namespace Rootr.Core.Directory
 {
     interface IDirectoryScrambler
     {
