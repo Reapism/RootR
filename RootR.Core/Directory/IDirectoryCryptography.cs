@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Rootr.Core.Cryptography
+namespace Rootr.Core.Directory
 {
     interface IDirectoryCryptography
     {
