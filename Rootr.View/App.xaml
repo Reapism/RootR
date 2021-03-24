@@ -4,6 +4,33 @@
              xmlns:local="clr-namespace:Rootr.View"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <!--Dark theme colors-->
+            <Color x:Key="PasswordForegroundDark">#daaaaa</Color>
+            <Color x:Key="PasswordBackgroundDark">#daaaaa</Color>
+            <Color x:Key="GridBackgroundDark">#daaaaa</Color>
+            <Color x:Key="GridForegroundDark">#daaaaa</Color>
+            <Color x:Key="GroupBoxBackgroundDark">#daaaaa</Color>
+            <Color x:Key="GroupBoxForegroundDark">#daaaaa</Color>
+            <Color x:Key="GroupBoxBorderDark">#daaaaa</Color>
+            <Color x:Key="ButtonForegroundDark">#daaaaa</Color>
+            <Color x:Key="ButtonBackgroundDark">#daaaaa</Color>
+            <Color x:Key="ButtonBorderDark">#daaaaa</Color>
+            <Color x:Key="ListViewForegroundDark">#daaaaa</Color>
+            <Color x:Key="ListViewBackgroundDark">#daaaaa</Color>
+            <Color x:Key="ListViewBorderDark">#daaaaa</Color>
+            <Color x:Key="TextBlockForegroundDark">#daaaaa</Color>
+            <Color x:Key="TextBlockBackgroundDark">#daaaaa</Color>
+            <Color x:Key="TextBoxForegroundDark">#daaaaa</Color>
+            <Color x:Key="TextBoxBackgroundDark">#daaaaa</Color>
+            <Color x:Key="TextBoxBorderDark">#daaaaa</Color>
+            <Color x:Key="TextBoxSelectionDark">#daaaaa</Color>
+            <Color x:Key="TextBoxSelectionTextDark">#daaaaa</Color>
+            <Color x:Key="CheckBoxForegroundDark">#daaaaa</Color>
+            <Color x:Key="CheckBoxBackgroundDark">#daaaaa</Color>
+            <Color x:Key="ComboBoxForegroundDark">#daaaaa</Color>
+            <Color x:Key="ComboBoxBackgroundDark">#daaaaa</Color>
+            <Color x:Key="ComboBoxBorderDark">#daaaaa</Color>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
