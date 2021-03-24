@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Rootr.Core.Cleaner
+namespace Rootr.Core.Directory
 {
     public interface IDirectoryCrud
     {
         void Create(DirectoryInfo directoryInfo);
         void Create(IEnumerable<DirectoryInfo> directoryInfos);
 
-        void Update(DirectoryInfo directoryInfo, IEnumerable<FileInfo> fileInfos);
+        void Update(DirectoryInfo targetDirectory, DirectoryInfo sourceDirectory);
 
         void Delete(IEnumerable<DirectoryInfo> directoryInfos);
 
@@ -43,7 +43,7 @@ namespace Rootr.Core.Cleaner
             return directoryInfo.EnumerateFiles();
         }
 
-        public void Update(DirectoryInfo directoryInfo, IEnumerable<FileInfo> fileInfos)
+        public void Update(DirectoryInfo targetDirectory, DirectoryInfo sourceDirectory)
         {
             throw new NotImplementedException();
         }
