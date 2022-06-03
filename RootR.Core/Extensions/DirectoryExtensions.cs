@@ -12,9 +12,9 @@ namespace Rootr.Core.Extensions
 
         public static IEnumerable<DirectoryInfo> GetDirectories(string path)
         {
-            var directories = System.IO.Directory.GetDirectories(path);
+            string[] directories = System.IO.Directory.GetDirectories(path);
 
-            foreach (var dir in directories)
+            foreach (string dir in directories)
             {
                 yield return new DirectoryInfo(dir);
             }
